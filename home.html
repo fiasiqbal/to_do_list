@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">To-Do List</a>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+        </div>
+        <span class="navbar-nav">
+            <a class="nav-item nav-link" href="login.html">Sign out</a>
+        </span>
+        
+    </nav>
+
+    <div id="msg">
+        <p>Click the button below to view the to-do list</p>
+        <button class="btn btn-outline-secondary" onclick="view();">View list</button>
+    </div>
+    <table hidden style="width: 70%; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 40px;" id="myTable" class="table table-hover table-sm shadow"></table>
+    <script src="script.js"></script>
+</body>
+</html>
